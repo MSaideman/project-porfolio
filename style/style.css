@@ -64,6 +64,10 @@ figcaption {
     AppleGothic, sans-serif;
   color: var(--light_blue);
   background-color: var(--blue);
+  border-style: solid;
+  border-color: var(--med_blue);
+  padding: 10px;
+  font-size: 20px;
 }
 
 main {
