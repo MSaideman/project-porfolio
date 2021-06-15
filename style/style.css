@@ -142,4 +142,7 @@ footer {
   .main-content {
     flex-direction: column;
   }
+  header {
+    flex-direction: column;
+  }
 }
