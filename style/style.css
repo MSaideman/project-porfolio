@@ -137,14 +137,6 @@ h4 {
   position: relative;
 }
 
-.row-right .small-project img {
-  max-width: 50%;
-  max-height: 50%;
-  display: flex;
-  position: relative;
-  flex-direction: column;
-}
-
 .row-right h3 {
   display: flex;
   position: absolute;
@@ -159,9 +151,6 @@ footer {
   padding-top: 40px;
   background-color: var(--bright_blue);
   color: var(--dark_blue);
-}
-
-.text-center {
   text-align: center;
 }
 
@@ -179,5 +168,11 @@ footer {
   }
   header {
     flex-direction: column;
+  }
+  .row-left {
+    border-bottom: 5px;
+    border-bottom-style: solid;
+    border-color: var(--dark_blue);
+    border-right-style: none;
   }
 }
