@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 20px;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic,
+    AppleGothic, sans-serif;
+}
+
+header nav {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic,
+    AppleGothic, sans-serif;
+  font-size: 20px;
+}
+
+header nav ul {
+  list-style-type: none;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+figure {
+  margin: 10px;
+  padding: 10px;
+}
+figcaption {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic,
+    AppleGothic, sans-serif;
+}
+
+main {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic,
+    AppleGothic, sans-serif;
+}
+
+.content {
+  padding: 0px;
+}
+
+.main-content {
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 400px;
+}
+
+.row-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 35px;
+  margin-right: 5em;
+  margin-left: 3em;
+  margin-bottom: 2em;
+  margin-bottom: 2em;
+}
+
+.row-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  margin-right: 3em;
+  margin-left: 5em;
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+
+.row-right img {
+  max-width: 50%;
+  max-height: 50%;
+}
+
+h2 {
+  float: left;
+}
+
+.main-content p {
+  margin: 40px;
+  padding: 40px;
+  font-size: 20px;
+  line-height: 2;
+}
+
+.main-content ul {
+  list-style-type: none;
+  font-size: 20px;
+}
+
+footer {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic,
+    AppleGothic, sans-serif;
+  padding-top: 40px;
+  margin-right: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
