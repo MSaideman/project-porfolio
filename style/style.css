@@ -56,10 +56,6 @@ main ul li a {
   text-decoration: none;
 }
 
-.content {
-  padding: 0px;
-}
-
 .row-left {
   display: flex;
   flex-direction: row;
@@ -103,6 +99,7 @@ h4 {
 
 .main-content {
   display: flex;
+  padding: 0px;
 }
 
 .main-content p {
@@ -142,7 +139,7 @@ footer {
 }
 
 @media screen and (max-width: 800px) {
-  .content {
+  .main-content {
     flex-direction: column;
   }
 }
