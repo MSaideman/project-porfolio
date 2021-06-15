@@ -134,6 +134,20 @@ h4 {
 .row-right img {
   max-width: 100%;
   max-height: 100%;
+  border-style: solid;
+  border-color: var (darkblue);
+  position: relative;
+}
+
+.row-right h3 {
+  position: absolute;
+  z-index: 5;
+  border-color: var(--dark_blue);
+  background-color: var(--bright_blue);
+  border-style: solid;
+  padding: 5px;
+  bottom: -110%;
+  right: 5%;
 }
 
 footer {
@@ -166,4 +180,9 @@ footer {
     border-color: var(--dark_blue);
     border-right-style: none;
   }
+}
+
+@media screen and (max-width: 1000px) {
+  .row-right h3 {
+    display:none;
 }
