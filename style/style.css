@@ -8,6 +8,8 @@ header {
   padding: 20px;
   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic,
     AppleGothic, sans-serif;
+  color: var(--light_blue);
+  background-color: var(--blue);
 }
 
 header nav {
@@ -17,6 +19,8 @@ header nav {
   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic,
     AppleGothic, sans-serif;
   font-size: 20px;
+  color: var(--light_blue);
+  background-color: var(--blue);
 }
 
 header nav ul {
@@ -32,10 +36,6 @@ a {
   text-decoration: none;
 }
 
-figure {
-  margin: 10px;
-  padding: 10px;
-}
 figcaption {
   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic,
     AppleGothic, sans-serif;
@@ -44,6 +44,8 @@ figcaption {
 main {
   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic,
     AppleGothic, sans-serif;
+  background-color: var(--bright_blue);
+  color: var(--dark_blue);
 }
 
 .content {
@@ -105,8 +107,17 @@ footer {
     AppleGothic, sans-serif;
   padding-top: 40px;
   margin-right: 20px;
+  background-color: var(--bright_blue);
+  color: var(--dark_blue);
 }
 
 .text-center {
   text-align: center;
+}
+
+:root {
+  --light_blue: #90e0ef;
+  --blue: #0077b6;
+  --bright_blue: #48cae4;
+  --dark_blue: #03045e;
 }
