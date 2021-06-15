@@ -54,10 +54,11 @@ figure img {
 
 figcaption {
   align-self: center;
+  text-align: center;
   width: 100%;
   z-index: 5;
   position: absolute;
-  top: 65%;
+  top: 75%;
   left: 0;
   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic,
     AppleGothic, sans-serif;
@@ -133,16 +134,6 @@ h4 {
 .row-right img {
   max-width: 100%;
   max-height: 100%;
-  display: flex;
-  position: relative;
-}
-
-.row-right h3 {
-  display: flex;
-  position: absolute;
-  width: 50%;
-  z-index: 5;
-  background-color: var(--bright_blue);
 }
 
 footer {
