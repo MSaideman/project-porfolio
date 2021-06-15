@@ -5,6 +5,7 @@
 }
 
 header {
+  display: flex;
   padding: 20px;
   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic,
     AppleGothic, sans-serif;
@@ -15,7 +16,6 @@ header {
 header nav {
   padding-top: 15px;
   margin-right: 20px;
-  float: right;
   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic,
     AppleGothic, sans-serif;
   font-size: 20px;
@@ -32,13 +32,14 @@ header nav ul li {
   margin-left: 25px;
 }
 
-a {
-  text-decoration: none;
+ul li a {
+  text-decoration: none !important;
 }
 
 figcaption {
   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic,
     AppleGothic, sans-serif;
+  color: var(--med_blue);
 }
 
 main {
@@ -79,6 +80,7 @@ main {
   margin-left: 5em;
   margin-bottom: 2em;
   margin-top: 2em;
+  color: var(--med_blue);
 }
 
 .row-right img {
@@ -90,6 +92,10 @@ h2 {
   float: left;
 }
 
+h4 {
+  color: #0077b6;
+  font-size: 16px;
+}
 .main-content p {
   margin: 40px;
   padding: 40px;
@@ -97,9 +103,10 @@ h2 {
   line-height: 2;
 }
 
-.main-content ul {
+.main-content ul li {
   list-style-type: none;
-  font-size: 20px;
+  font-size: 16px;
+  margin-left: 3em;
 }
 
 footer {
@@ -119,5 +126,6 @@ footer {
   --light_blue: #90e0ef;
   --blue: #0077b6;
   --bright_blue: #48cae4;
+  --med_blue: #023e8a;
   --dark_blue: #03045e;
 }
