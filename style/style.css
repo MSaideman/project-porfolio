@@ -216,8 +216,10 @@ footer {
     border-bottom-style: solid;
     border-color: var(--dark_blue);
     border-right-style: none;
+    font-size: 20px;
+    justify-content: space-evenly;
+    width: 100%;
   }
-}
 
 @media screen and (max-width: 1000px) {
   .row-right h3 {
