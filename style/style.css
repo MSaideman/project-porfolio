@@ -43,6 +43,7 @@ header nav ul li a:hover {
   color: var(--med_blue);
   background-color: var(--blue);
   text-decoration: none !important;
+  font-weight: bold;
 }
 
 figure {
@@ -146,6 +147,7 @@ h4 {
   max-height: 100%;
   border-style: solid;
   border-color: var (darkblue);
+  border-width: 5px;
   position: relative;
 }
 
@@ -166,6 +168,7 @@ h4 {
 
 #contact a:hover {
   color: var(--light_blue);
+  font-weight: bold;
 }
 
 footer {
