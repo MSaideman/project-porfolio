@@ -208,6 +208,7 @@ footer {
   .main-content {
     flex-direction: column;
   }
+
   header {
     flex-direction: column;
   }
@@ -220,7 +221,10 @@ footer {
     justify-content: space-evenly;
     width: 100%;
   }
-
+  .row-right a {
+    margin-left: 25px;
+  }
+}
 @media screen and (max-width: 1000px) {
   .row-right h3 {
     display: none;
