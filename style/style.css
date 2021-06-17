@@ -141,12 +141,21 @@ h4 {
 .row-right {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
   justify-content: space-between;
   text-decoration: none !important;
   background-color: var(--bright_blue);
   color: var(--dark_blue);
   width: 75%;
   padding: 25px;
+}
+
+.small-project {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  max-height: 50%;
+  margin-top: 10px;
 }
 
 /* project images */
@@ -222,6 +231,10 @@ footer {
   }
   .row-right a {
     margin-left: 25px;
+  }
+  .small-project {
+    max-width: 100%;
+    max-height: 100%;
   }
 }
 @media screen and (max-width: 1000px) {
