@@ -127,7 +127,6 @@ h4 {
 /* section headers */
 .row-left {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
@@ -141,7 +140,6 @@ h4 {
 /* section content */
 .row-right {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   text-decoration: none !important;
@@ -159,6 +157,7 @@ h4 {
   border-color: var (darkblue);
   border-width: 5px;
   position: relative;
+  transform: rotate(1deg);
 }
 
 /* project image animation */
