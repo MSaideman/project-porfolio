@@ -8,6 +8,8 @@ The purpose of this project is to show a portfolio that showcases my skills and 
 
 ![screencapture-msaideman-github-io-project-portfolio-2021-08-03-13_56_23](https://user-images.githubusercontent.com/82477037/128063257-07862e5e-0b90-4dbe-8a81-3d7554ed95fe.png)
 
+![screencapture-msaideman-github-io-project-portfolio-images-MackenzieSaideman2021-08-pdf-2021-08-03-13_58_23](https://user-images.githubusercontent.com/82477037/128063500-515d3aed-315e-410e-91a9-e06164ce4589.png)
+
 Copyright (c) 2012-2021 Scott Chacon and others
 
 Permission is hereby granted, free of charge, to any person obtaining
