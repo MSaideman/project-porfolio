@@ -6,7 +6,7 @@ GitHub Repo URL: https://github.com/MSaideman/project-portfolio
 
 The purpose of this project is to show a portfolio that showcases my skills and talents. This project includes my strongest work including core skills, such as flexbox, media queries, and CSS variables.
 
-![screencapture-msaideman-github-io-project-portfolio-2021-08-03-13_53_29](https://user-images.githubusercontent.com/82477037/128063107-85139e8b-76af-42f4-b167-5c3cdc281e16.png)
+![screencapture-msaideman-github-io-project-portfolio-2021-08-03-13_56_23](https://user-images.githubusercontent.com/82477037/128063257-07862e5e-0b90-4dbe-8a81-3d7554ed95fe.png)
 
 Copyright (c) 2012-2021 Scott Chacon and others
 
