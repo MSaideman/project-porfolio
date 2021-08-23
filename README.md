@@ -4,11 +4,25 @@ Deployed URL: https://msaideman.github.io/project-portfolio/
 
 GitHub Repo URL: https://github.com/MSaideman/project-portfolio
 
+## Description
+
 The purpose of this project is to show a portfolio that showcases my skills and talents. This project includes my strongest work including core skills, such as flexbox, media queries, and CSS variables.
 
 ![screencapture-msaideman-github-io-project-portfolio-2021-08-03-13_56_23](https://user-images.githubusercontent.com/82477037/128063257-07862e5e-0b90-4dbe-8a81-3d7554ed95fe.png)
 
 ![screencapture-msaideman-github-io-project-portfolio-images-MackenzieSaideman2021-08-pdf-2021-08-03-13_58_23](https://user-images.githubusercontent.com/82477037/128063500-515d3aed-315e-410e-91a9-e06164ce4589.png)
+
+## Installation
+
+Download a source-code editor, such as VS Code, to run script.
+
+## Usage
+
+Click Deployed URL for client-facing site. Click Github URL for code behind the project portfolio.
+
+## License
+
+This project is convered under the MIT License.
 
 Copyright (c) 2012-2021 Scott Chacon and others
 
@@ -30,3 +44,7 @@ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
 LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
 OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+## Questions
+
+For questions about this project, please reach out by email at mbsaideman@gmail.com.
